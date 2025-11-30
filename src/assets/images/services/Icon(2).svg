@@ -1,0 +1,25 @@
+<svg width="39" height="28" viewBox="0 0 39 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon" clip-path="url(#clip0_281_2640)">
+<g id="Clip path group">
+<mask id="mask0_281_2640" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="38" height="28">
+<g id="clip0_13_134">
+<path id="Vector" d="M37.8333 0H0.5V28H37.8333V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_281_2640)">
+<g id="Group">
+<path id="Vector_2" d="M3.04545 28H8.98485V13.5758L0.5 7.21216V25.4546C0.5 26.8631 1.64121 28 3.04545 28Z" fill="white" fill-opacity="0.098"/>
+<path id="Vector_3" d="M29.3484 28H35.2878C36.6963 28 37.8332 26.8588 37.8332 25.4546V7.21216L29.3484 13.5758" fill="white" fill-opacity="0.098"/>
+<path id="Vector_4" d="M29.3484 2.54535V13.5757L37.8332 7.21202V3.81808C37.8332 0.670202 34.2399 -1.12435 31.7241 0.763535" fill="white" fill-opacity="0.294"/>
+<path id="Vector_5" d="M8.98486 13.5757V2.54541L19.1667 10.1818L29.3485 2.54541V13.5757L19.1667 21.2121" fill="white" fill-opacity="0.2"/>
+<path id="Vector_6" d="M0.5 3.81808V7.21202L8.98485 13.5757V2.54535L6.60909 0.763535C4.08909 -1.12435 0.5 0.670202 0.5 3.81808Z" fill="white" fill-opacity="0.294"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_281_2640">
+<rect width="38" height="28" fill="white" transform="translate(0.5)"/>
+</clipPath>
+</defs>
+</svg>

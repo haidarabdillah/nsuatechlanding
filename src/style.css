@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import "tailwindcss";
+
+@theme{
+  --font-display: "Space Grotesk", serif;
+  /* --color-primary: #2ABDB5; */
+  --color-secondary: #BABABA;
+  --color-dark: #0C1215;
+  --color-dark-02: #141414;
+  --color-grey: #25282C;
+  --color-white-005: rgba(255, 255, 255, 0.05);
+  --color-white-010: rgba(255, 255, 255, 0.10);
+  --color-white-020: rgba(255, 255, 255, 0.20);
+  --color-white-030: rgba(255, 255, 255, 0.30);
+  --color-white-040: rgba(255, 255, 255, 0.40);
+  --color-white-003: rgba(255, 255, 255, 0.03);
+  --color-white-017: rgba(17, 17, 17, 0.50);
+  --color-green-010:rgba(223, 228, 234, 0.10);
+  --color-black-060: rgba(0, 0, 0, 0.60);
+
+}
+
+@layer utilities {
+  .bg-gradient {
+    background: linear-gradient(324deg, #004337 0%, #04B86C 57.15%, #004337 100%);
+  }
+}
+
+
+body{
+  overflow-x: hidden;
+  background-color: #050505;
+  font-family: "Space Grotesk", serif; 
+  overflow-x: hidden;
+}
+
+h1, h2, h3,p,a {
+  font-family: "Space Grotesk", serif;
+}
+
+.font-display {
+    font-family: "Space Grotesk", serif;
+}
+
+.nav-item:hover, .text-primary {
+  background: linear-gradient(324deg, #004337 0%, #04B86C 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-primary{
+
+background: var(--Color-g, linear-gradient(324deg, #004337 0%, #04B86C 57.15%, #004337 100%));
+box-shadow: 0px 5px 25px 0px rgba(42, 189, 181, 0.20);
+}
+
+button.tab:hover, button.tab.active{
+  background: var(--Color-g, linear-gradient(324deg, #004337 0%, #04B86C 57.15%, #004337 100%));
+box-shadow: 0px 5px 25px 0px rgba(42, 189, 181, 0.20);
+border: 0px;
+}
+
+.tab {
+  @apply cursor-pointer font-medium bg-dark border border-grey text-white p-4 rounded-[6px] w-[146px];
+}
